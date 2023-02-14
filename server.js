@@ -35,7 +35,7 @@ app.get("/products", (req, res) => {
             res.status(400).send("에러 발생");
         });
 });
-// 왜 git commit이 안되니
+// 왜 git commit이 안되니 제발
 
 app.post("/products", (req, res) => {
     const body = req.body;
