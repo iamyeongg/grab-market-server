@@ -44,7 +44,7 @@ app.get("/products", (req, res) => {
             "createdAt",
             "seller",
             "imageUrl",
-            "soldout"
+            "soldout",
         ],
     })
         .then((result) => {
